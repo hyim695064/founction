@@ -42,13 +42,26 @@
 # show_fahrenheit(0)
 # show_fahrenheit(100)
 # show_fahrenheit(37.5)
-def check_even(n):
-    if n  % 2 == 0:
-        print("even")
-    else:
-        print("odd")
-check_even(4)
-check_even(7)
+# def check_even(n):
+#     if n  % 2 == 0:
+#         print("even")
+#     else:
+#         print("odd")
+# check_even(4)
+# check_even(7)
+#10
+def summarize(items):
+    largest = items[0]
+    smallest = items[0]
+    for num in items:
+        if largest < num:
+            largest = num
+        if smallest > num:
+            smallest = num
+    print("sum", sum(items))
+    print("smallest", smallest)
+    print("largest", largest)
+summarize([4, 9, 2, 10, 3])
 
 
 
