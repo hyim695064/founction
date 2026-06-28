@@ -16,17 +16,17 @@
 # greet_with_title("x")
 # greet_with_title("x", title = "person")
 #5
-def describe(name, level, active):
-     print("name", name)
-     print("level", level)
-     print("active", active)
-describe(name = "agent x", level = 5, active =True)
-describe(level = 5, active = True, name = "agent x")
-#6
+# def describe(name, level, active):
+#      print("name", name)
+#      print("level", level)
+#      print("active", active)
+# describe(name = "agent x", level = 5, active =True)
+# describe(level = 5, active = True, name = "agent x")
+# #6
 def multiply(a, b=2):
-    print(5, a)
-    print(4, a)
-multiply()
+    print(a *b)
+multiply(4)
+multiply(4,9)
      
 
 
