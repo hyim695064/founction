@@ -68,8 +68,13 @@
 #         print(item)
 # show_all("radio", "map", "flashlight")    
 #p2s2
-def show_profile(**kwargs):
-    for keys in kwargs:
-        print(keys, kwargs[keys])
-show_profile(name ="agent x", level =7, active = True)
-
+# def show_profile(**kwargs):
+#     for keys in kwargs:
+#         print(keys, kwargs[keys])
+# show_profile(name ="agent x", level =7, active = True)
+#p2s3
+def power(base, exponent=2):
+    print(base ** exponent)
+power(3)
+power(3,3)
+power(exponent=4, base=2)
