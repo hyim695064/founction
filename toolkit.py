@@ -78,7 +78,14 @@
 # power(3)
 # power(3,3)
 # power(exponent=4, base=2)
-def repeat(text, times):
-    # print("ha", text, times)
-    print(text * times)
-repeat("ha", 3)
+# def repeat(text, times):
+#     # print("ha", text, times)
+#     print(text * times)
+# repeat("ha", 3)
+#p2s5
+def flatten_and_print(nasted):
+    for list1 in nasted:
+        #print(list1)
+        for num in list1:
+            print(num)
+flatten_and_print([[1,2], [3,4], [5]])
