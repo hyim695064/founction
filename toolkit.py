@@ -63,10 +63,13 @@
 #     print("largest", largest)
 # summarize([4, 9, 2, 10, 3])
 #p2s1
-def show_all(*args):
-    for item in args:
-        print(item)
-show_all("radio", "map", "flashlight")    
-
-
+# def show_all(*args):
+#     for item in args:
+#         print(item)
+# show_all("radio", "map", "flashlight")    
+#p2s2
+def show_profile(**kwargs):
+    for keys in kwargs:
+        print(keys, kwargs[keys])
+show_profile(name ="agent x", level =7, active = True)
 
