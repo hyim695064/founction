@@ -37,11 +37,19 @@
 # print_largest(3, 8, 5)
 # print_largest(10, 2, 7)
 # print_largest(4, 4, 1)
-def show_fahrenheit(c):
-    print((c *9/5)+32)
-show_fahrenheit(0)
-show_fahrenheit(100)
-show_fahrenheit(37.5)
+# def show_fahrenheit(c):
+#     print((c *9/5)+32)
+# show_fahrenheit(0)
+# show_fahrenheit(100)
+# show_fahrenheit(37.5)
+def check_even(n):
+    if n  % 2 == 0:
+        print("even")
+    else:
+        print("odd")
+check_even(4)
+check_even(7)
+
 
 
 
