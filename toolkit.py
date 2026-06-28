@@ -23,11 +23,20 @@
 # describe(name = "agent x", level = 5, active =True)
 # describe(level = 5, active = True, name = "agent x")
 # #6
-def multiply(a, b=2):
-    print(a *b)
-multiply(4)
-multiply(4,9)
-     
+# def multiply(a, b=2):
+#     print(a *b)
+# multiply(4)
+# multiply(4,9)
+def print_largest(a, b, c):
+    if a >= b and  c:
+        print(a)
+    elif b >= a and  c:
+        print(b)
+    elif c >= a and  b:
+        print(c)
+print_largest(3, 8, 5)
+print_largest(10, 2, 7)
+print_largest(4, 4, 1)
 
 
 
