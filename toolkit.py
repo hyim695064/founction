@@ -22,22 +22,12 @@ def describe(name, level, active):
      print("active", active)
 describe(name = "agent x", level = 5, active =True)
 describe(level = 5, active = True, name = "agent x")
-# name = "bob"
-# def change_name():
-#     name ="alice"
-# change_name()
-# print(name)
-# x = 10
-# def show():
-#     x = 5
-#     print(x)
-# show()
-# print(x)
-# x = 3
-# def chnge():
-#     global x
-#     x = 8
-# chnge()
-# print(x)
+#6
+def multiply(a, b=2):
+    print(5, a)
+    print(4, a)
+multiply()
+     
+
 
 
